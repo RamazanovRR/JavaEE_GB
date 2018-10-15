@@ -23,51 +23,6 @@
         <filter-name>encodingFilter</filter-name>
         <url-pattern>/*</url-pattern>
     </filter-mapping>
-
-    <servlet>
-        <servlet-name>main</servlet-name>
-        <servlet-class>ru.Ramazanov.enterprise.servlet.MainServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>main</servlet-name>
-        <url-pattern>/main</url-pattern>
-    </servlet-mapping>
-
-  <servlet>
-    <servlet-name>catalog</servlet-name>
-    <servlet-class>ru.Ramazanov.enterprise.servlet.CatalogServlet</servlet-class>
-  </servlet>
-    <servlet-mapping>
-        <servlet-name>catalog</servlet-name>
-        <url-pattern>/catalog</url-pattern>
-    </servlet-mapping>
-    
-    <servlet>
-        <servlet-name>product</servlet-name>
-        <servlet-class>ru.Ramazanov.enterprise.servlet.ProductServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>product</servlet-name>
-        <url-pattern>/product</url-pattern>
-    </servlet-mapping>
-    
-    <servlet>
-        <servlet-name>cart</servlet-name>
-        <servlet-class>ru.Ramazanov.enterprise.servlet.CartServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>cart</servlet-name>
-        <url-pattern>/cart</url-pattern>
-    </servlet-mapping>
-
-    <servlet>
-        <servlet-name>order</servlet-name>
-        <servlet-class>ru.Ramazanov.enterprise.servlet.OrderServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>order</servlet-name>
-        <url-pattern>/order</url-pattern>
-    </servlet-mapping>
     
     <error-page>
         <error-code>404</error-code>
